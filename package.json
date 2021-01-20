@@ -1,6 +1,6 @@
 {
-  "name": "@nuxtjs/firebase",
-  "version": "7.3.2",
+  "name": "@grainbridge/firebase",
+  "version": "7.4.1-beta",
   "description": "Intergrate Firebase into your Nuxt project.",
   "keywords": [
     "firebase",
@@ -11,7 +11,10 @@
     "realtimedatabase"
   ],
   "homepage": "https://firebase.nuxtjs.org/",
-  "repository": "nuxt-community/firebase-module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grainbridge/firebase-module.git"
+  },
   "license": "MIT",
   "author": "Pascal Luther",
   "files": [
@@ -58,7 +61,7 @@
     "nuxt": "^2.14.12"
   },
   "publishConfig": {
-    "access": "public"
+    "registry":"https://npm.pkg.github.com/"
   },
   "config": {
     "commitizen": {
